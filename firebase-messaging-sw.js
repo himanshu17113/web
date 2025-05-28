@@ -39,15 +39,17 @@ importScripts("https://www.gstatic.com/firebasejs/10.7.0/firebase-messaging-comp
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+
 const firebaseConfig = {
-  apiKey: "AIzaSyBTjWye2ChHTGsKhaVl9pkNFszW_MDGQnM",
+  apiKey: "AIzaSyBE3OyS8zi594vFKuqBtFq1QGpyNusSHLo",
   authDomain: "bold-1d39b.firebaseapp.com",
   projectId: "bold-1d39b",
   storageBucket: "bold-1d39b.firebasestorage.app",
   messagingSenderId: "593584096267",
-  appId: "1:593584096267:web:21da7e7fd08df104b2730e",
-  measurementId: "G-SMXVSX5WCJ"
+  appId: "1:593584096267:web:2b8915369d339308b2730e",
+  measurementId: "G-2C9Z7HCVFQ"
 };
+
 
 // Initialize Firebase
 const app = firebase.initializeApp(firebaseConfig);
