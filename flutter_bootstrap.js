@@ -7,7 +7,7 @@ let eventListener;
 eventListener = (message) => {
     const pendingMessages = [];
     const data = message.data;
-   data["instantiateWasm"] = (info,receiveInstance) => {
+    data["instantiateWasm"] = (info,receiveInstance) => {
         const instance = new WebAssembly.Instance(data["wasm"], info);
         return receiveInstance(instance, data["wasm"])
     };
